@@ -53,7 +53,6 @@ export default function Module5Portfolio() {
   return (
     <div className={isDark ? 'dark scroll-smooth' : 'scroll-smooth'}>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-        {/* Header */}
         <header className="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-10 transition-colors duration-300">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
@@ -126,7 +125,6 @@ export default function Module5Portfolio() {
           </nav>
         </header>
 
-        {/* Hero Section */}
         <section
           id="hero"
           className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 animate-fade-in"
@@ -153,7 +151,6 @@ export default function Module5Portfolio() {
           </div>
         </section>
 
-        {/* About Section */}
         <section
           id="about"
           className="py-20 bg-slate-50 dark:bg-gray-800 transition-colors duration-300"
@@ -214,7 +211,6 @@ export default function Module5Portfolio() {
           </div>
         </section>
 
-        {/* Projects Grid */}
         <section
           id="projects"
           className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300"
@@ -275,7 +271,6 @@ export default function Module5Portfolio() {
           </div>
         </section>
 
-        {/* Contact Section */}
         <section
           id="contact"
           className="py-20 bg-slate-50 dark:bg-gray-800 transition-colors duration-300"
@@ -378,7 +373,6 @@ export default function Module5Portfolio() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="bg-gray-900 dark:bg-black text-white py-12 transition-colors duration-300">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
